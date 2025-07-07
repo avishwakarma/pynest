@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy & Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pylint.d/
+
+# VSCode settings
+.vscode/
+
+# IDEs
+.idea/
+*.swp
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# JWT key files (if generated)
+*.pem
+*.key
+*.crt
+
+# MacOS & system files
+.DS_Store
+Thumbs.db
